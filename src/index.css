@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 2rem;
+  }
+
+.mason-item { /* Masonry bricks or child elements */
+    float: left;
+    margin: 0 0 2rem;
+    width: 100%;
+  }
