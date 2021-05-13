@@ -13,8 +13,10 @@ function Details({resources}){
   
   return (
     <div >
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <div className='mx-10 my-5'>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </div>
       <Flickity
         className={'carousel '} // default ''
         elementType={'div'} // default 'div'
@@ -24,7 +26,7 @@ function Details({resources}){
         static // default false
       >
         {images && images.map(i => (
-          <img src={i} style={{height: "500px"}}/>
+          <img src={i} alt='' style={{height: "500px", width: "auto"}}/>
         ))}
       </Flickity>
       

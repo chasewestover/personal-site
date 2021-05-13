@@ -3,12 +3,12 @@ import { Link, NavLink } from 'react-router-dom';
 function NavBar() {
 
   return (
-    <nav className="block mx-10 my-10 text-2xl">
-      <Link className="" to="/">Chase Westover</Link>
+    <nav className="block m-10 text-2xl">
+      <Link to="/personal-site/">Chase Westover</Link>
       <span className="float-right space-x-10">
-        <NavLink to="/work">Work</NavLink>
-        <NavLink to="/creative">Creative</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/personal-site/work">Work</NavLink>
+        <NavLink to="/personal-site/creative">Creative</NavLink>
+        <NavLink to="/personal-site/contact">Contact</NavLink>
       </span>
     </nav>
   );

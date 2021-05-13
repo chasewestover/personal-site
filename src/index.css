@@ -7,9 +7,26 @@ body {
 }
 
 .masonry { /* Masonry container */
-    column-count: 3;
-    column-gap: 2rem;
+  column-gap: 2rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .masonry {
+    column-count: 1;
   }
+}
+
+@media only screen and (min-width: 600px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}
 
 .mason-item { /* Masonry bricks or child elements */
     float: left;

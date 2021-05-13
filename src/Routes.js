@@ -1,21 +1,23 @@
 import { Route, Switch } from "react-router";
 import Details from "./Details";
 import About from "./About";
-import Gallery from "./Gallery";
+import MasonryGallery from "./GalleryMasonry";
 import creative from './resources/creative'
 import work from './resources/work'
 import Contact from "./Contact";
+import React from "react";
 
 
 function Routes() {
   return (
+    
     <Switch>
-      <Route exact path="/work"><Gallery resources={work} type='work'/></Route>
-      <Route path="/work/:id"><Details resources={work}/></Route>
-      <Route exact path="/creative"><Gallery resources={creative} type='creative'/></Route>
-      <Route path="/creative/:id"><Details resources={creative}/></Route>
-      <Route exact path="/contact"><Contact/></Route>
-      <Route exact path="/"><About /><Gallery resources={work} type='work' /></Route>
+      <Route exact path="/personal-site/work"><ScrollGallery resources={work}/></Route>
+      <Route path="/personal-site/work/:id"><Details resources={work}/></Route>
+      <Route exact path="/personal-site/creative"><MasonryGallery resources={creative} type='creative'/></Route>
+      <Route path="/personal-site/creative/:id"><Details resources={creative}/></Route>
+      <Route exact path="/personal-site/contact"><Contact/></Route>
+      <Route exact path="/personal-site/"><About /><ScrollGallery resources={work} type='work' /></Route>
     </Switch>
   );
 }
