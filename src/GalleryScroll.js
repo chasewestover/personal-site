@@ -1,12 +1,12 @@
-import GalleryImage from "./GalleryImage";
+import InfoCard from "./InfoCard";
 
-function GalleryScroll({resources, type}){
+function GalleryScroll({resources}){
 
   return (
-    <div className='masonry'>
+    <div className=''>
 
       {resources.map(r => (
-       <GalleryImage key={r.src} type={type} {...r}/>
+       <InfoCard key={r.src} {...r}/>
       ))}
     </div>
   )

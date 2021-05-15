@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 function NavBar() {
 
   return (
-    <nav className="block m-10 text-2xl">
+    <nav className="md:text-2xl lg:text-4xl block m-10 text-md">
       <Link to="/personal-site/">Chase Westover</Link>
       <span className="float-right space-x-10">
         <NavLink to="/personal-site/work">Work</NavLink>
