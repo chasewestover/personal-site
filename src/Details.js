@@ -15,7 +15,7 @@ function Details({resources}){
     <div >
       <div className='mx-10 my-5'>
         <h1>{title}</h1>
-        <p>{description}</p>
+        {description.map(d => <p className='my-5'>{d}</p>)}
       </div>
       <Flickity
         className={'carousel '} // default ''
