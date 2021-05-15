@@ -68,7 +68,7 @@ const creative = [
   { src: TNJ, 
     id: 'TNJ', 
     title: "The New Journal", 
-    description: [`A collection of cover and story designs from when I was the creative director of The New Journal at Yale.`], 
+    description: [`A collection of cover and story designs from when I was the creative director of The New Journal at Yale. `], 
     images: [] 
   },
   { src: Fun, 
