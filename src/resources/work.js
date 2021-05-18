@@ -1,8 +1,19 @@
 
 import Jobly from '../vids/Jobly.mp4';
+import Warbler from '../vids/Warbler.mp4';
 
 const work = [
-  { src: Jobly, id: 'jobly', title: "Warbler", 
+  { src: Jobly, id: 'jobly', title: "Jobly", 
+  technologies: 'Node',
+  description: [`Jobly is a full-stack application that matches job seekers and employers. Jobly was built using a Node/ Express\
+   back-end and a React front-end. The application allows logged in users to browse and search hiring companies and jobs by name\
+    or company. It also allows users to edit their profile and apply for specific jobs.`,
+
+    `This project used test driven development (TDD) on the back-end and learn how to think through a detailed component hierarchy on\
+    the front-end.`],
+  links: ['github', 'demo'],
+  theme: 'green-600'},
+  { src: Warbler, id: 'warbler', title: "Warbler", 
   technologies: 'Node',
   description: [`Warbler is a Twitter clone utilizing Flask, PostgreSQL, and SQLAlchemy, on the back-end and Jinja templating,\
    jQuery, and Axios on the front-end. I built this application off of a semi-functioning clone.`,
@@ -13,18 +24,7 @@ const work = [
     `This project allowed me to work with a large codebase written primarily by others. It helped me understand object oriented \
     programming and design and improved my backend testing abilities.`], 
   
-  links: ['github', 'demo'],
-  theme: 'blue-500'},
-  { src: Jobly, id: 'jobly', title: "Warbler", 
-  technologies: 'Node',
-  description: [`Jobly is a full-stack application that matches job seekers and employers. Jobly was built using a Node/ Express\
-   back-end and a React front-end. The application allows logged in users to browse and search hiring companies and jobs by name\
-    or company. It also allows users to edit their profile and apply for specific jobs.`,
-
-    `This project used test driven development (TDD) on the back-end and learn how to think through a detailed component hierarchy on\
-    the front-end.`], 
-  
-  links: ['github', 'demo'],
+  links: ['github', 'demo'], 
   theme: 'red-500' },
 ];
 

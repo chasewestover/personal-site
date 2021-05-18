@@ -3,8 +3,8 @@ function InfoCard({src, id, title, technologies, description, links, theme}) {
   return (
   <div className='max-w-3xl px-5 mx-auto my-20 text-center'>
     <h1 className='font-bold'>{title}</h1>
-    <div className={`max-w-xl mx-auto shadow-lg rounded border-4 border-${theme}`}>
-      <video src={src} loop autoPlay className=''/>
+    <div className={`max-w-xl mx-auto shadow-lg border-${theme}`}>
+      <video src={src} loop autoPlay />
     </div>
     <div>
       <h4>{technologies}</h4>
