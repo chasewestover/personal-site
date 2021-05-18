@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.6ff0476d.chunk.css",
-    "main.js": "/personal-site/static/js/main.d774f9f5.chunk.js",
-    "main.js.map": "/personal-site/static/js/main.d774f9f5.chunk.js.map",
+    "main.css": "/personal-site/static/css/main.7fab3f88.chunk.css",
+    "main.js": "/personal-site/static/js/main.67653e56.chunk.js",
+    "main.js.map": "/personal-site/static/js/main.67653e56.chunk.js.map",
     "runtime-main.js": "/personal-site/static/js/runtime-main.7ad11295.js",
     "runtime-main.js.map": "/personal-site/static/js/runtime-main.7ad11295.js.map",
-    "static/js/2.49d5d314.chunk.js": "/personal-site/static/js/2.49d5d314.chunk.js",
-    "static/js/2.49d5d314.chunk.js.map": "/personal-site/static/js/2.49d5d314.chunk.js.map",
+    "static/js/2.7a27b9b6.chunk.js": "/personal-site/static/js/2.7a27b9b6.chunk.js",
+    "static/js/2.7a27b9b6.chunk.js.map": "/personal-site/static/js/2.7a27b9b6.chunk.js.map",
     "static/js/3.b5735bc3.chunk.js": "/personal-site/static/js/3.b5735bc3.chunk.js",
     "static/js/3.b5735bc3.chunk.js.map": "/personal-site/static/js/3.b5735bc3.chunk.js.map",
     "index.html": "/personal-site/index.html",
-    "static/css/main.6ff0476d.chunk.css.map": "/personal-site/static/css/main.6ff0476d.chunk.css.map",
-    "static/js/2.49d5d314.chunk.js.LICENSE.txt": "/personal-site/static/js/2.49d5d314.chunk.js.LICENSE.txt",
+    "static/css/main.7fab3f88.chunk.css.map": "/personal-site/static/css/main.7fab3f88.chunk.css.map",
+    "static/js/2.7a27b9b6.chunk.js.LICENSE.txt": "/personal-site/static/js/2.7a27b9b6.chunk.js.LICENSE.txt",
     "static/media/BoxPaint.dfed1a6c.png": "/personal-site/static/media/BoxPaint.dfed1a6c.png",
-    "static/media/Composition.c6a0cfac.jpg": "/personal-site/static/media/Composition.c6a0cfac.jpg",
+    "static/media/Jobly.5b619e9d.mp4": "/personal-site/static/media/Jobly.5b619e9d.mp4",
     "static/media/Posters.8eeff036.png": "/personal-site/static/media/Posters.8eeff036.png",
-    "static/media/Steel.f4bd68a8.png": "/personal-site/static/media/Steel.f4bd68a8.png",
-    "static/media/garden.fb50ce9a.jpg": "/personal-site/static/media/garden.fb50ce9a.jpg"
+    "static/media/Rick.e302c9d4.jpg": "/personal-site/static/media/Rick.e302c9d4.jpg",
+    "static/media/TNJ.f1f455e1.png": "/personal-site/static/media/TNJ.f1f455e1.png",
+    "static/media/YalePress.d0c48057.jpeg": "/personal-site/static/media/YalePress.d0c48057.jpeg",
+    "static/media/sculpture.bb659932.png": "/personal-site/static/media/sculpture.bb659932.png",
+    "static/media/wink.d89d1fb1.png": "/personal-site/static/media/wink.d89d1fb1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7ad11295.js",
-    "static/js/2.49d5d314.chunk.js",
-    "static/css/main.6ff0476d.chunk.css",
-    "static/js/main.d774f9f5.chunk.js"
+    "static/js/2.7a27b9b6.chunk.js",
+    "static/css/main.7fab3f88.chunk.css",
+    "static/js/main.67653e56.chunk.js"
   ]
 }
