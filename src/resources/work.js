@@ -11,7 +11,10 @@ const work = [
 
     `This project used test driven development (TDD) on the back-end and learn how to think through a detailed component hierarchy on\
     the front-end.`],
-  links: ['github', 'demo'],
+  links: [
+    ['Demo', 'https://chasewestover.github.io/Jobly-frontend/'],
+    ['Github (frontend)', 'https://github.com/chasewestover/Jobly-frontend'], 
+    ['Github (backend)', 'https://github.com/chasewestover/Jobly-backend']], 
   theme: 'green-600'},
   { src: Warbler, id: 'warbler', title: "Warbler", 
   technologies: 'Node',
@@ -24,7 +27,9 @@ const work = [
     `This project allowed me to work with a large codebase written primarily by others. It helped me understand object oriented \
     programming and design and improved my backend testing abilities.`], 
   
-  links: ['github', 'demo'], 
+  links: [
+    ['Demo', 'https://warbler-star.herokuapp.com/'], 
+    ['Github', 'https://github.com/chasewestover/Flask-Warbler'], ],
   theme: 'red-500' },
 ];
 

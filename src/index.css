@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .masonry { /* Masonry container */

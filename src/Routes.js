@@ -13,12 +13,12 @@ function Routes() {
   return (
     
     <Switch>
-      <Route exact path="/work"><GalleryScroll resources={work}/></Route>
-      <Route path="/work/:id"><Details resources={work}/></Route>
+      <Route exact path="/projects"><GalleryScroll resources={work}/></Route>
+      <Route path="/projects/:id"><Details resources={work}/></Route>
       <Route exact path="/creative"><MasonryGallery resources={creative} type='creative'/></Route>
       <Route path="/creative/:id"><Details resources={creative}/></Route>
       <Route exact path="/contact"><Contact/></Route>
-      <Route exact path="/"><About /><GalleryScroll resources={work} type='work' /></Route>
+      <Route exact path="/"><About /><GalleryScroll resources={work}/></Route>
     </Switch>
   );
 }
