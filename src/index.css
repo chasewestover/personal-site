@@ -24,6 +24,8 @@
   }
 }
 
+.carousel-cell { margin-right: 10px; }
+
 body {
   font-family: 'Roboto Mono', monospace;
 }

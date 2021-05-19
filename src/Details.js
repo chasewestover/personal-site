@@ -27,7 +27,7 @@ function Details({resources}){
         static // default false
       >
         {images && images.map(i => (
-          <img classname="mx-5 px-5" src={i} alt='' style={{height: "500px", width: "auto", margin: '50 50'}}/>
+          <img  src={i} alt='' style={{height: "500px", width: "auto"}}/>
         ))}
       </Flickity>
       
