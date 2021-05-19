@@ -13,7 +13,9 @@ const work = [
     the front-end.`],
   links: [
     ['Demo', 'https://chasewestover.github.io/Jobly-frontend/'],
+    [''],
     ['Github (frontend)', 'https://github.com/chasewestover/Jobly-frontend'], 
+    [''],
     ['Github (backend)', 'https://github.com/chasewestover/Jobly-backend']], 
   theme: 'green-600'},
   { src: Warbler, id: 'warbler', title: "Warbler", 
@@ -29,6 +31,7 @@ const work = [
   
   links: [
     ['Demo', 'https://warbler-star.herokuapp.com/'], 
+    [''],
     ['Github', 'https://github.com/chasewestover/Flask-Warbler'], ],
   theme: 'red-500' },
 ];

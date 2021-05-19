@@ -1,3 +1,5 @@
+
+
 function InfoCard({src, id, title, technologies, description, links, theme}) {
 
   return (
@@ -11,7 +13,10 @@ function InfoCard({src, id, title, technologies, description, links, theme}) {
       {description.map(d => <p className='my-2 text-left'>{d}</p>)}
       
       <p>
-        {links.map(l => (<a className='mx-2' href={l[1]}>{l[0]}</a> ))}
+        {links.map(l => l.length === 2 
+        ? (<a className='mx-2' href={l[1]}>{l[0]}</a> )
+        : <b className='mx-2'>●</b>
+        )}
         
         {/* 
         <a className='mx-2' href={links[1]}>Demo</a> */}

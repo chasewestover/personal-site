@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-3xl;
+    @apply my-3;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply my-3;
+  }
+  h2 {
+    @apply text-xl;
+    @apply my-3;
+  }
+  p a {
+    @apply text-blue-500;
+  }
+  p {
+    @apply text-sm;
+    @apply my-3;
+  }
+}
+
 body {
   font-family: 'Roboto Mono', monospace;
 }
@@ -33,7 +55,3 @@ body {
     margin: 0 0 2rem;
     width: 100%;
   }
-
-.Info-Card {
-  
-}

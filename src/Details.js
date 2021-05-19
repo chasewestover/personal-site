@@ -3,6 +3,7 @@ import Flickity from 'react-flickity-component'
 
 const flickityOptions = {
   // initialIndex: 0
+  autoPlay: 3000
 }
 
 
@@ -26,7 +27,7 @@ function Details({resources}){
         static // default false
       >
         {images && images.map(i => (
-          <img src={i} alt='' style={{height: "500px", width: "auto"}}/>
+          <img classname="mx-5 px-5" src={i} alt='' style={{height: "500px", width: "auto", margin: '50 50'}}/>
         ))}
       </Flickity>
       

@@ -5,6 +5,16 @@ import YalePress from "../images/creative/YalePress.jpeg";
 import Posters from "../images/creative/Posters.png";
 import TNJ from "../images/creative/TNJ.png";
 import Fun from "../images/creative/wink.png";
+import _1 from '../images/creative/Rick/1.JPG'
+import _2 from '../images/creative/Rick/2.JPG'
+import _3 from '../images/creative/Rick/3.JPG'
+import _4 from '../images/creative/Rick/4.JPG'
+import _5 from '../images/creative/Rick/5.JPG'
+import _6 from '../images/creative/Rick/6.JPG'
+import _7 from '../images/creative/Rick/7.JPG'
+import _8 from '../images/creative/Rick/8.JPG'
+import _9 from '../images/creative/Rick/9.JPG'
+import _10 from '../images/creative/Rick/10.JPG'
 
 const creative = [
   { src: Rick, 
@@ -15,7 +25,7 @@ const creative = [
     bed and began building Rick’s Casita. I made the base from steel, the skeleton from pine, and the skin from cedar,\
      using fiberglass and epoxy to seal it. I designed and installed a 200W solar system that fed a fridge, dimmer, four\
       lights, and a water pump. I lived in it from June to December of 2019 in Berkeley and New Haven.`], 
-    images: [] 
+    images: [_1, _2, _3, _4, _5, _6, _7, _8, _9, _10] 
   },
   { src: BoxPaint, 
     id: 'BoxPaint', 
