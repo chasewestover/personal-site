@@ -4,11 +4,12 @@ function InfoCard({src, id, title, technologies, description, links, theme}) {
 
   return (
   <div className='max-w-3xl px-5 mx-auto my-20 text-center'>
-    <h1 className='font-bold'>{title}</h1>
-    <div className={`max-w-xl mx-auto shadow-lg border-${theme}`}>
+    
+    <div className={`max-w-xl mx-auto shadow-lg`}>
       <video src={src} loop autoPlay muted />
     </div>
     <div>
+      <h1 className='font-bold'>{title}</h1>
       <h4>{technologies}</h4>
       {description.map(d => <p className='my-2 text-left'>{d}</p>)}
       

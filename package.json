@@ -2,7 +2,6 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chasewestover.github.io/personal-site",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.12.0",
