@@ -1,5 +1,6 @@
 {
   "name": "personal-site",
+  "homepage": "http://chasewestover.github.io/personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
