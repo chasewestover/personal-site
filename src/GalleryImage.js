@@ -5,10 +5,11 @@ function GalleryImage({ src, id, alt, type }) {
     <Link to={`${type}/${id}`}>
       <div>
 
-        <img src={src} alt={alt} className='masonry-item mb-7' />
+        <img src={src} alt={alt} className=' w-full float-left mb-7' />
       </div>
     </Link>
   );
 }
+
 
 export default GalleryImage;

@@ -24,8 +24,6 @@
   }
 }
 
-.carousel-cell { margin-right: 10px; }
-
 body {
   font-family: 'Roboto Mono', monospace;
   min-width: 320px;
@@ -54,7 +52,12 @@ body {
 }
 
 .mason-item { /* Masonry bricks or child elements */
-    float: left;
+    float: left; 
     margin: 0 0 2rem;
     width: 100%;
   }
+
+.c-image {
+  height: 60vw;
+  max-height: 600px;
+}

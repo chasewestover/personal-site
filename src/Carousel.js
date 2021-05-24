@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Carousel.css";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 function Carousel({images}) {
@@ -11,7 +10,7 @@ function Carousel({images}) {
 
   return (
     <div className="mx-auto">
-      <img className="h-52 sm:h-96 mx-auto" alt='' src={image} />
+      <img className="c-image mx-auto" alt='' src={image} />
       <div className="sm:w-1/2 mx-auto">
         <span  className="mx-auto w-min flex float-left">
           <AiOutlineArrowLeft className='m-1' size={20} onClick={goBackward} />
