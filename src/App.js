@@ -5,7 +5,7 @@ import Routes from "./Routes";
 function App() {
 
   return (
-      <div className="App">
+      <div className="mx-4 md:mx-5">
         <NavBar />
         <Routes />
       </div>

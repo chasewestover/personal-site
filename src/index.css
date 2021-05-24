@@ -28,6 +28,7 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
+  min-width: 320px;
 }
 
 .masonry { /* Masonry container */
