@@ -12,7 +12,7 @@ function Carousel({images}) {
   return (
     <div className="mx-auto">
       <img className="h-52 sm:h-96 mx-auto" alt='' src={image} />
-      <div>
+      <div className="sm:w-1/2 mx-auto">
         <span  className="mx-auto w-min flex float-left">
           <AiOutlineArrowLeft className='m-1' size={20} onClick={goBackward} />
           <AiOutlineArrowRight className='m-1' size={20} onClick={goForward} />
