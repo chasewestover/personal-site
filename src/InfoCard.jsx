@@ -11,11 +11,11 @@ function InfoCard({src, id, title, technologies, description, links, theme}) {
     <div>
       <h1 className='font-bold'>{title}</h1>
       <h4>{technologies}</h4>
-      {description.map(d => <p className='my-2 text-left'>{d}</p>)}
+      {description.map(d => <p key={description} className='my-2 text-left'>{d}</p>)}
       
       <p>
         {links.map(l => l.length === 2 
-        ? (<a className='mx-2' href={l[1]}>{l[0]}</a> )
+        ? (<a key={l[1]} className='mx-2' href={l[1]}>{l[0]}</a> )
         : <b className='mx-2'>●</b>
         )}
       </p>

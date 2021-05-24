@@ -1,8 +1,9 @@
 function About(){
   return (
     <div className='my-5 text-xl'>
-      <p>I’m a full stack software engineer with a BA in Graphic Design from Yale. Check out some of my projects 
-        below and click on them for more info.</p>
+      <p>I’m an aspiring software engineer, currently studying at Rithm School in SF. 
+        I'm passionate about designing, building, and shipping digital products. Before getting into programming I worked as a 
+        designer at Yale Press, and I have a BA in Graphic Design from Yale. Check out some of my projects below!</p>
     </div>
   )
 }

@@ -15,9 +15,9 @@ const work = [
   links: [
     ['Demo', 'https://chasewestover.github.io/Jobly-frontend/'],
     [''],
-    ['Github (frontend)', 'https://github.com/chasewestover/Jobly-frontend'], 
+    ['Github (FE)', 'https://github.com/chasewestover/Jobly-frontend'], 
     [''],
-    ['Github (backend)', 'https://github.com/chasewestover/Jobly-backend']], 
+    ['Github (BE)', 'https://github.com/chasewestover/Jobly-backend']], 
   },
   { src: Warbler, id: 'warbler', title: "Warbler", 
   technologies: 'Flask, PostgreSQL, jQuery',

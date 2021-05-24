@@ -11,7 +11,7 @@ function Details({resources}){
     <div >
       <div className='my-5'>
         <h1>{title}</h1>
-        {description.map(d => <p className='my-5'>{d}</p>)}
+        {description.map(d => <p key={description} className='my-5'>{d}</p>)}
       </div>
       <Carousel images={images}/>
     </div>
