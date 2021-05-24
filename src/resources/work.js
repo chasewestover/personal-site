@@ -1,7 +1,7 @@
 
 import Jobly from '../vids/Jobly.mp4';
 import Warbler from '../vids/Warbler.mp4';
-import SocialDine from '../vids/SocialDine.mp4';
+import SocialGrove from '../vids/SocialDine.mp4';
 
 const work = [
   { src: Jobly, id: 'jobly', title: "Jobly", 
@@ -36,9 +36,9 @@ const work = [
     [''],
     ['Github', 'https://github.com/chasewestover/Flask-Warbler'], ],
   },
-  { src: SocialDine, id: 'social-dine', title: "Social Dine", 
+  { src: SocialGrove, id: 'social-grove', title: "Social Grove", 
   technologies: 'React, Json Server',
-  description: [`Social Dine is a social dining experience that lets users suggest dishes to be served and then vote on those dishes to
+  description: [`Social Grove is a social dining experience that lets users suggest dishes to be served and then vote on those dishes to
     determine the menu. It uses React on the frontend and a simple json server on the backend to manage the data`,
 
   `Regular users can add dishes and drinks and vote on their favorites. Admin users can remove items that don't meet the guidelines`], 

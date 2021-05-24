@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "flickity": "^2.2.2",
     "gh-pages": "^3.1.0",
+    "hamburger-react": "^2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-flickity-component": "^3.6.1",
@@ -19,6 +20,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "surge": "craco build && cd build && mv index.html 200.html && surge `pwd` chasewestover.com && cd ..",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
