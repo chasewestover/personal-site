@@ -1,6 +1,6 @@
 function Contact(){
   return (
-    <div className='mx-10 my-5 text-lg'>
+    <div className='my-5 text-xl'>
       <p>Get in touch with me</p>
     </div>
   )
