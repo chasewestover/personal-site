@@ -9,12 +9,12 @@ function Carousel({images}) {
   const goBackward = () => {setCardIdx(cardIdx === 0 ? total-1 : cardIdx - 1)};
 
   return (
-    <div className="mx-auto">
+    <div className="mx-auto mb-4">
       <img className="c-image mx-auto" alt='' src={image} />
       <div className="sm:w-1/2 mx-auto">
         <span  className="mx-auto w-min flex float-left">
-          <AiOutlineArrowLeft className='m-1' size={20} onClick={goBackward} />
-          <AiOutlineArrowRight className='m-1' size={20} onClick={goForward} />
+          <AiOutlineArrowLeft className='my-1 mx-3' size={20} onClick={goBackward} />
+          <AiOutlineArrowRight className='my-1 mx-3' size={20} onClick={goForward} />
         </span>
         <span className="float-right">
           <small>Image {cardIdx + 1} of {total}.</small>

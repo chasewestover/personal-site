@@ -51,13 +51,7 @@ body {
   }
 }
 
-.mason-item { /* Masonry bricks or child elements */
-    float: left; 
-    margin: 0 0 2rem;
-    width: 100%;
-  }
-
 .c-image {
-  height: 60vw;
+  height: 67vw;
   max-height: 600px;
 }
