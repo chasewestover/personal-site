@@ -4,7 +4,6 @@ import Carousel from "./Carousel";
 
 function Details({resources}){
   const {id} = useParams()
-  console.log(id, resources)
   const {images, description, title} = resources.find(r => r.id === id);
   
   return (

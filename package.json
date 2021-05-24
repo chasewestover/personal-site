@@ -18,7 +18,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "surge": "craco build && cd build && mv index.html 200.html && surge `pwd` chasewestover.com && cd ..",
+    "surge": "craco build && cd build && mv index.html 200.html && surge `pwd` chasewestover.com && surge `pwd` chasewestover.surge.sh && cd ..",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
