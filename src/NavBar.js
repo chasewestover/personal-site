@@ -9,11 +9,11 @@ function NavBar() {
   return (
     <div className='text-black my-5 py-2 text-md md:text-lg'>
       <nav className="">
-        <Link className='' to="/">Chase Westover</Link>
+        <Link className='hover:text-white hover:bg-red-600' to="/">Chase Westover</Link>
         <span className="hidden float-right space-x-10 sm:inline ">
-          <NavLink to="/">Projects</NavLink>
-          <NavLink to="/creative">Creative</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink className='hover:text-white hover:bg-blue-600' to="/">Projects</NavLink>
+          <NavLink className='hover:text-white hover:bg-green-600' to="/creative">Creative</NavLink>
+          <NavLink className='hover:text-white hover:bg-yellow-400' to="/contact">Contact</NavLink>
         </span>
         <span className="-my-3 block sm:hidden float-right">
           <Hamburger toggled={dropdown} toggle={toggleDropdown} size={18}/>
