@@ -20,9 +20,9 @@ function NavBar() {
         </span>
       </nav>
       {dropdown && <div className="my-3 text-right flex flex-col items-end w-full float-right sm:hidden ">
-          <NavLink onClick={toggleDropdown} className='py-2 w-min' to="/">Projects</NavLink>
-          <NavLink onClick={toggleDropdown} className='py-2 w-min' to="/creative">Creative</NavLink>
-          <NavLink onClick={toggleDropdown} className='py-2 w-min' to="/contact">Contact</NavLink>
+          <NavLink onClick={toggleDropdown} className='py-2 w-min hover:text-white hover:bg-blue-600' to="/">Projects</NavLink>
+          <NavLink onClick={toggleDropdown} className='py-2 w-min hover:text-white hover:bg-green-600' to="/creative">Creative</NavLink>
+          <NavLink onClick={toggleDropdown} className='py-2 w-min hover:text-white hover:bg-yellow-400' to="/contact">Contact</NavLink>
         </div>}
     </div>
   );
