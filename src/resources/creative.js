@@ -5,16 +5,13 @@ import YalePress from "../images/creative/YalePress.jpeg";
 import Posters from "../images/creative/Posters.png";
 import TNJ from "../images/creative/TNJ.png";
 import Fun from "../images/creative/wink.png";
-import _1 from '../images/creative/Rick/1.JPG'
-import _2 from '../images/creative/Rick/2.JPG'
-import _3 from '../images/creative/Rick/3.JPG'
-import _4 from '../images/creative/Rick/4.JPG'
-import _5 from '../images/creative/Rick/5.JPG'
-import _6 from '../images/creative/Rick/6.JPG'
-import _7 from '../images/creative/Rick/7.JPG'
-import _8 from '../images/creative/Rick/8.JPG'
-import _9 from '../images/creative/Rick/9.JPG'
-import _10 from '../images/creative/Rick/10.JPG'
+import RickImages from "./RickImages";
+import SculptureImages from "./SculptureImages";
+import FunImages from "./FunImages";
+import YalePressImages from "./YalePressImages";
+import TNJImages from "./TNJImages";
+import PostersImages from "./PostersImages";
+
 
 const creative = [
   { src: Rick, 
@@ -25,14 +22,15 @@ const creative = [
     bed and began building Rick’s Casita. I made the base from steel, the skeleton from pine, and the skin from cedar,\
      using fiberglass and epoxy to seal it. I designed and installed a 200W solar system that fed a fridge, dimmer, four\
       lights, and a water pump. I lived in it from June to December of 2019 in Berkeley and New Haven.`], 
-    images: [_1, _2, _3, _4, _5, _6, _7, _8, _9, _10] 
+    images: RickImages,
   },
   { src: BoxPaint, 
     id: 'BoxPaint', 
     title: "Box Paint", 
     description: [`A very simple drawing app for the web, which can be accessed here. Play around to figure out which keyboard\
      keys change the color. I recommend starting out with something like 20 columns. Below is an abstract example that I drew.`], 
-    images: [] 
+    images: [BoxPaint],
+    link: 'https://chasewestover.github.io/box-paint/'
   },
   { src: YalePress, 
     id: 'YalePress', 
@@ -49,7 +47,7 @@ const creative = [
     selection is simple, allowing the zigzagging lines of the steps to dominate the visual language. The torn paper \
     and the staples gesture at the intensely personal, autobiographical nature of the works, and also at a kind of frantic \
     necessity to get words down on paper.`], 
-    images: [] 
+    images: YalePressImages, 
   },
   { src: Posters, 
     id: 'Posters', 
@@ -59,7 +57,7 @@ const creative = [
 
     For the compositional exercises, I was tasked with using horizontal and vertical black rectangles to communicate certain \
     concepts on white poster board. From left to right: confinement, motion, imbalance, structure, chaos.`], 
-    images: [] 
+    images: PostersImages,
   },
   { src: Sculpture, 
     id: 'Sculpture', 
@@ -73,19 +71,19 @@ const creative = [
     The wooden piece is an abstraction of a spinal column, made from a single straight 2x4.
 
     The rest of the images are experiments and sketches using various concepts.`], 
-    images: [] 
+    images: SculptureImages, 
   },
   { src: TNJ, 
     id: 'TNJ', 
     title: "The New Journal", 
     description: [`A collection of cover and story designs from when I was the creative director of The New Journal at Yale. `], 
-    images: [] 
+    images: TNJImages 
   },
   { src: Fun, 
     id: 'Fun', 
     title: "Fun Design Projects", 
     description: [`A variety of fun exercises featuring hand-lettering and illustrations.`], 
-    images: [] 
+    images: FunImages, 
   },
 ];
 
