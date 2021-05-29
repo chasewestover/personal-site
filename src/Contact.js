@@ -1,7 +1,4 @@
-import {Link} from 'react-router-dom'
-import resume from './files/CWResumé.pdf'
 
-console.log(resume)
 
 function Contact(){
   return (

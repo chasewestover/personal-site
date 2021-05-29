@@ -8,9 +8,6 @@ import _7 from '../images/creative/Sculpture/7.gif';
 import _8 from '../images/creative/Sculpture/8.jpg';
 import _9 from '../images/creative/Sculpture/9.jpg';
 
-console.log(_1);
-
-
 const SculptureImages = [_1, _2, _3, _4, _5, _6, _7, _8, _9];
 
 export default SculptureImages;
