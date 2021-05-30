@@ -13,7 +13,7 @@ const work = [
     `I learned test driven development while building the backend, and I learned how to design a complete component heirarchy to build
     the front-end.`],
   links: [
-    ['Demo', 'https://chasewestover.github.io/Jobly-frontend/'],
+    ['Demo', 'http://jobly-react-cw.surge.sh/'],
     [''],
     ['Github (FE)', 'https://github.com/chasewestover/Jobly-frontend'], 
     [''],
@@ -32,7 +32,7 @@ const work = [
     programming and design and improved my backend testing abilities.`], 
   
   links: [
-    ['Demo', 'https://warbler-star.herokuapp.com/'], 
+    ['Demo', 'https://warbler-warbler-warbler.herokuapp.com/'], 
     [''],
     ['Github', 'https://github.com/chasewestover/Flask-Warbler'], ],
   },
