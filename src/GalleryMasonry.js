@@ -62,7 +62,7 @@ function GalleryMasonry({ resources, type }) {
   const resourceColumns = getResourceColumns();
 
   return (
-    <div className="masonry flex -mx-4 md:-mx-10 lg:-mx-28 xl:mx-0">
+    <div className="masonry flex">
       {resourceColumns.map((col) => (
         <div key={uuidv4()}>
           {col.map((r) => (

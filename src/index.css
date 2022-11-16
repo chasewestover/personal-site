@@ -27,10 +27,27 @@
 @layer components {
 }
 
+.content {
+  max-width: 100%;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   min-width: 320px;
 }
+
+.nav-container {
+  position: relative;
+}
+
+.index {
+  position: absolute;
+  background: white;
+  width: fit-content;
+  padding: 20px;
+  right: 0px;
+}
+
 
 div.masonry {
   gap: 28px;
@@ -43,4 +60,21 @@ div.masonry > div {
 .c-image {
   height: 67vw;
   max-height: 600px;
+}
+
+@media screen and (min-width: 1400px) {
+  .content {
+    max-width: 1300px;
+  }
+
+  .collapse-margins-large {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .content {
+    max-width: 1900px;
+  }
 }
