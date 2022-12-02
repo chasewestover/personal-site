@@ -1,28 +1,30 @@
 import { Link } from "react-router-dom";
 
-const getRandWithin = (range) => Math.round(Math.random() * range);
+const getRandWithin = (high, low = 0) => low + Math.round(Math.random() * high);
 
 function NavBar() {
   let canvas;
   const colors = ["red", "blue", "green", "yellow", "orange", "magenta", "cyan"]
-  const canvWidth = 1500;
-  const canvHeight = 800;
+  const canvWidth = 1200;
+  const canvHeight = 600;
 
   function draw() { 
 
     if (canvas) {
       // const roll = Math.ceil(Math.random() * 3);
-      let points = 3 + getRandWithin(10);
-      let innerWidth = getRandWithin(canvWidth);
-      let innerHeight = getRandWithin(canvHeight);
+      let points = getRandWithin(8, 3);
+      let innerWidth = getRandWithin(canvWidth, 200);
+      let innerHeight = getRandWithin(canvHeight, 100);
       canvas.beginPath();
       while(points > 0) {
         canvas.lineTo(getRandWithin(innerWidth), getRandWithin(innerHeight));
         points--;
       }
       // canvas.moveTo(75, 50);
-      // draw a random shape
+      // from random set of colors
       canvas.fillStyle = colors[Math.floor(Math.random() * colors.length)];
+      // totally random color option
+      // canvas.fillStyle = `rgb(${getRandWithin(255)},${getRandWithin(255)},${getRandWithin(255)})`;
       canvas.fill();
     } else {
       //handling for no canvas feature
