@@ -25,23 +25,21 @@ function Carousel({ images }) {
   });
 
   return (
-    <div className="mx-auto mb-4">
-      <img className="c-image mx-auto" alt="" src={image} />
+    <div >
+      <img className="c-image" alt="" src={image} />
       {images.length > 1 && (
-        <div className="sm:w-1/2 mx-auto">
-          <span className="mx-auto w-min flex float-left">
+        <div>
+          <span>
             <AiOutlineArrowLeft
-              className="my-1 mx-3"
               size={20}
               onClick={goBackward}
             />
             <AiOutlineArrowRight
-              className="my-1 mx-3"
               size={20}
               onClick={goForward}
             />
           </span>
-          <span className="float-right">
+          <span >
             <small>
               Image {cardIdx + 1} of {total}
             </small>

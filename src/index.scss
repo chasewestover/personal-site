@@ -1,0 +1,75 @@
+body {
+  font-family: "Space Mono", monospace;
+  min-width: 320px;
+  margin: 0;
+  h1 {
+    font-weight: normal;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-container {
+    position: relative;
+    font-size: 64px;
+    #home-link-canvas {
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  .collapse-margins-large {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .about-text {
+    font-size: 64px;
+  }
+  div.masonry {
+    display: flex;
+    gap: 28px;
+    div {
+      flex: 1 1 0;
+    }
+    .gallery-image {
+      margin-bottom: 28px;
+      float: left;
+      width: 100%;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .c-image {
+    height: 67vw;
+    max-height: 600px;
+    margin: 0 auto;
+    div {
+      margin: 0 auto;
+      span {
+        margin: 0 auto;
+        width: min-content;
+        display: flex;
+        float: left;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  .content {
+    max-width: 1300px;
+  }
+
+  .collapse-margins-large {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .content {
+    max-width: 1900px;
+  }
+}

@@ -8,11 +8,11 @@ function Details({resources}){
   
   return (
     <div >
-      <div className='my-5'>
+      <div >
         <h1>{title}</h1>
-        {description.map(d => <p key={description} className='my-5'>{d}</p>)}
+        {description.map(d => <p key={description} >{d}</p>)}
       </div>
-      {link && <div className='text-blue-500 my-5'><a  href={link}>Project</a></div>}
+      {link && <div ><a  href={link}>Project</a></div>}
       <Carousel images={images}/>
       
     </div>

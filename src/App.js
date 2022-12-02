@@ -4,7 +4,7 @@ import Routes from "./Routes";
 
 function App() {
   return (
-    <div className="content mx-auto">
+    <div className="content">
       <NavBar />
       <Routes />
     </div>
