@@ -23,6 +23,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "lint": "eslint .",
     "start": "craco start",
     "build": "craco build",
     "surge-test": "craco build && cd build && mv index.html 200.html && surge `pwd` chasewestover.surge.sh && cd ..",
@@ -33,6 +34,8 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
+    "ignorePatterns": ["**/build/*"],
+
     "extends": [
       "react-app",
       "react-app/jest"

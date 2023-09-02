@@ -13,7 +13,7 @@ function GalleryImage({
     return (
         <Link to={`${type}/${id}`}>
             <div>
-                <img src={src} className="gallery-image" />
+                <img src={src} alt="" className="gallery-image" />
             </div>
         </Link>
     );
