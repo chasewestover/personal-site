@@ -1,9 +1,16 @@
 import GalleryImage from "./GalleryImage";
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+import { ResourceType } from "./types";
 
-function GalleryMasonry({ resources, type }) {
-  const [width, setWidth] = useState(null);
+function GalleryMasonry({
+  resources,
+  type,
+}: {
+  resources: ResourceType[];
+  type: string;
+}) {
+  const [width, setWidth] = useState(1);
   const [numColumns, setNumColumns] = useState(1);
 
   useEffect(() => {
@@ -31,23 +38,23 @@ function GalleryMasonry({ resources, type }) {
   }, [width]);
 
   const getResourceColumns = () => {
-    const resourceColumns = [];
+    const resourceColumns: ResourceType[][] = [];
     const columnLengths = [];
     for (let i = 0; i < numColumns; i++) {
       resourceColumns.push([]);
       columnLengths.push(0);
     }
-    for (let res of resources) {
+    for (let resource of resources) {
       // find smallest column, add value
       const idxOfShortestColumn = _idxOfMin(columnLengths);
-      resourceColumns[idxOfShortestColumn].push(res);
+      resourceColumns[idxOfShortestColumn].push(resource);
       // update height of column
-      columnLengths[idxOfShortestColumn] += res.heightWidthRatio;
+      columnLengths[idxOfShortestColumn] += resource.heightWidthRatio;
     }
     return resourceColumns;
   };
 
-  const _idxOfMin = (arrayNums) => {
+  const _idxOfMin = (arrayNums: number[]) => {
     let min = arrayNums[0];
     let idxOfMin = 0;
     for (let i = 1; i < arrayNums.length; i++) {

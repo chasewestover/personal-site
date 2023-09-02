@@ -1,4 +1,4 @@
-import Rick from "../images/creative/Rick.jpg"
+import Rick from "../images/creative/Rick.jpg";
 import Sculpture from "../images/creative/sculpture.png";
 import BoxPaint from "../images/creative/BoxPaint.png";
 import YalePress from "../images/creative/YalePress.jpeg";
@@ -11,9 +11,9 @@ import FunImages from "./FunImages";
 import YalePressImages from "./YalePressImages";
 import TNJImages from "./TNJImages";
 import PostersImages from "./PostersImages";
+import { ResourceType } from "../types";
 
-
-const creative = [
+const creative: ResourceType[] = [
   {
     src: Rick,
     id: "Rick",
@@ -21,7 +21,7 @@ const creative = [
     description: [
       `In 2017 I bought a 1997 Ford Ranger that had 130,000 miles, with the plan to build a tiny house \
     and live in it. I named the truck Rick and he has been my travel companion since.  In 2018, I removed the truck \
-    bed and began building Rick’s Casita. I made the base from steel, the skeleton from pine, and the skin from cedar,\
+    bed and began building Rick's Casita. I made the base from steel, the skeleton from pine, and the skin from cedar,\
      using fiberglass and epoxy to seal it. I designed and installed a 200W solar system that fed a fridge, dimmer, four\
       lights, and a water pump. I lived in it from June to December of 2019 in Berkeley and New Haven.`,
     ],
@@ -111,7 +111,7 @@ const creative = [
       `A variety of fun exercises featuring hand-lettering and illustrations.`,
     ],
     images: FunImages,
-    heightWidthRatio: .68
+    heightWidthRatio: 0.68,
   },
 ];
 

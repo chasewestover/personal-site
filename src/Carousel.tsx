@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
-function Carousel({ images }) {
+function Carousel({ images }: { images: string[] }) {
   const [cardIdx, setCardIdx] = useState(0);
   const image = images[cardIdx];
   const total = images.length;
@@ -13,7 +13,7 @@ function Carousel({ images }) {
   };
 
   useEffect(() => {
-    const onLeftAndRightKeys = (evt) => {
+    const onLeftAndRightKeys = (evt: KeyboardEvent) => {
       if (evt.code === "ArrowRight") {
         goForward();
       } else if (evt.code === "ArrowLeft") {
@@ -25,25 +25,19 @@ function Carousel({ images }) {
   });
 
   return (
-    <div >
+    <div className="carousel">
       <img className="c-image" alt="" src={image} />
       {images.length > 1 && (
-        <div>
-          <span>
-            <AiOutlineArrowLeft
-              size={20}
-              onClick={goBackward}
-            />
-            <AiOutlineArrowRight
-              size={20}
-              onClick={goForward}
-            />
-          </span>
-          <span >
+        <div className="carousel-switcher">
+          <div className="arrows">
+            <AiOutlineArrowLeft size={20} onClick={goBackward} />
+            <AiOutlineArrowRight size={20} onClick={goForward} />
+          </div>
+          <div>
             <small>
               Image {cardIdx + 1} of {total}
             </small>
-          </span>
+          </div>
         </div>
       )}
     </div>

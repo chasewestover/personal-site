@@ -1,7 +1,7 @@
 body {
   font-family: "Space Mono", monospace;
   min-width: 320px;
-  margin: 0;
+  margin: auto 50px;
   h1 {
     font-weight: normal;
   }
@@ -17,10 +17,10 @@ body {
       z-index: -1;
     }
   }
-  .collapse-margins-large {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+  // .collapse-margins-large {
+  //   margin-left: 50px;
+  //   margin-right: 50px;
+  // }
   .about-text {
     font-size: 64px;
   }
@@ -37,20 +37,30 @@ body {
     }
   }
   .content {
-    margin: 0 auto;
+    // margin: 0 auto;
     max-width: 100%;
   }
-  .c-image {
-    height: 67vw;
-    max-height: 600px;
-    margin: 0 auto;
-    div {
-      margin: 0 auto;
-      span {
-        margin: 0 auto;
-        width: min-content;
+  
+  .carousel {
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
+
+    .c-image {
+      height: 60vw;
+      max-height: 600px;
+      margin: auto;
+      display: block;
+    }
+
+    .carousel-switcher {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+
+      .arrows {
         display: flex;
-        float: left;
+        gap: 20px
       }
     }
   }
